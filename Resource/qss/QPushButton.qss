@@ -1,0 +1,16 @@
+QPushButton#abutton {
+    border-style: outset;
+    border-width: 2px;
+	background-color: rgb(85, 170, 255);
+    border-radius: 10px;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QPushButton#abutton:hover
+{ /*鼠标悬停在按钮上时*/
+
+background-color:red;
+
+}
