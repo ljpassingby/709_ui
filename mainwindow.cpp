@@ -29,7 +29,7 @@ void MainWindow::loadStyleSheet(const QString &styleSheetFile)
 
     {
 
-        qApp->setStyleSheet(file.readAll());
+        this->setStyleSheet(file.readAll());
 //        QString styleSheet = this->styleSheet();
 
 //        styleSheet += QLatin1String(file.readAll());//读取样式表文件
